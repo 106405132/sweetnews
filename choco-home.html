@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>choco-home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./choco-home.css" media="screen">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--盈盈要改的header-->
+  <div id="header">
+
+    <div class="logo-box">
+      <a href="./choco-home.html">
+        <div id="logo"></div>
+      </a>
+      <a href="./choco-home.html">
+        <div class="logo-name"></div>
+      </a>
+      </a>
+    </div>
+
+    <div class="tool-box">
+      <img src="./tool/choco-user.png" class="toollogo" alt="user">
+      <img src="./tool/choco-like.png" class="toollogo" alt="liked">
+      <div class="change-color">
+        <a href="#"><img src="./tool/choco-change.png" class="toollogo" alt="change"></a>
+        <!--換色選單在這-->
+        <ul class="colorlist">
+          <li></li>
+          <li><a href="./choco-home.html"><img src="./drawing/sweets/巧克力.png" class="choice"></a></li>
+          <li><a href="./strawberry-home.html"><img src="./drawing/sweets/草莓塔.png"
+                class="choice"></a></li>
+          <li><a href="./mont-home.html"><img src="./drawing/sweets/蒙布朗.png" class="choice"></a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+
+  <!--幻燈片在這-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="floatman">
+      <!--帥哥在這，圖及對話-->
+      <img class="man" src="./man/choco.png">
+      <h6 class="talk">要跟我沈醉在閱讀的世界裡嗎？</h6>
+    </div>
+    <!--新聞照片及標題-->
+    <div class="carousel-inner" style="z-index: 3;">
+      <div class="carousel-item active popo-carousel-item" data-bs-interval="2500">
+        <img src="./photo/1.png" class="d-block w-100" alt="馳騁機車賽場　廖翊宏UCRR奪冠">
+        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+          <h5>馳騁機車賽場　廖翊宏UCRR奪冠</h5>
+        </div>
+      </div>
+      <div class="carousel-item popo-carousel-item" data-bs-interval="2500">
+        <img src="./photo/2.jpg" class="d-block w-100" alt="一路苦戰　廖振珽桌球遺憾摘銀">
+        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+          <h5>一路苦戰　廖振珽桌球遺憾摘銀</h5>
+        </div>
+      </div>
+      <div class="carousel-item popo-carousel-item" data-bs-interval="2500">
+        <img src="./photo/3.jpg" class="d-block w-100" alt="半秒之差　楊合貞滑輪溜冰驚險奪冠">
+        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+          <h5>半秒之差　楊合貞滑輪溜冰驚險奪冠</h5>
+        </div>
+      </div>
+      <div class="carousel-item popo-carousel-item" data-bs-interval="2500">
+        <img src="./photo/4.jpg" class="d-block w-100" alt="再「接」再「力」　國體馬拉松賽重回冠軍寶座">
+        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+          <h5>再「接」再「力」　國體馬拉松賽重回冠軍寶座</h5>
+        </div>
+      </div>
+    </div>
+    <ol class="carousel-indicators popo-carousel-indicators">
+      <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+      <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
+    </ol>
+    <!--
+    <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+    -->
+  </div>
+
+
+  <!--可愛人仔在這-->
+  <!--盈盈要改的人仔-->
+  <div id="cute">
+    <img id="cuteimg" src="./man/choco-cute.png">
+    <div id="cutep">今天的份看完了嗎</div>
+  </div>
+
+  <!--首頁推薦新聞在這-->
+  <div class="news-recommend">
+    <div class="title">
+      <div><img class="decor" src="./drawing/decor/果醬餅乾.png"></div>
+      <div>
+        <p>今日的甜點資訊</p>
+      </div>
+    </div>
+    <div id="allnewsbox">
+      <div class="newsbox" style="cursor: pointer;" onclick="window.location='./eye-choco.html';">
+        <div class="overlay">
+          <div class="text">偏鄉眼科治療遇困境<br>居民難就醫</div>
+        </div>
+      </div>
+
+      <div class="newsbox" style="cursor: pointer;" onclick="window.location='./weather-choco.html';">
+        <div class="overlay">
+          <div class="text">爭呼吸平權<br>學生遊行籲修法</div>
+        </div>
+      </div>
+
+      <div class="newsbox" style="cursor: pointer;" onclick="window.location='./tax-choco.html';">
+        <div class="overlay">
+          <div class="text">青年難留台<br>稅改遊行倡改善低薪</div>
+        </div>
+      </div>
+
+      <div class="newsbox" style="cursor: pointer;" onclick="window.location='./hand-choco.html';">
+        <div class="overlay">
+          <div class="text">科技擠壓手語文化<br>兩者如何平衡</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--介紹在這-->
+  <!--盈盈要改的footer-->
+  <div id="intro">
+    <div>
+      <img class="intro-decor" src="drawing/logo/酒心獨角.png">
+    </div>
+    <div>
+      <h3>關於筆者</h3>
+      <p>
+        身在台北卻有著英國時差，<br>
+        肝是黑的但腦袋是空的。<br>
+        最近為Netflix推送甜蜜戀愛電影，<br>
+        並表示80%合適我而感到疑惑。<br>
+        夢想能一直與被窩相親相愛。</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</html>
